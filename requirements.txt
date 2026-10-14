@@ -1,0 +1,11 @@
+# Versions the results were produced with (Python 3.12.10).
+pandas==3.0.1
+numpy==2.4.3
+scipy==1.17.1
+matplotlib==3.10.8
+openpyxl==3.1.5
+pyfixest==0.50.1
+
+# Kernel for the notebooks in 01_patstat_pipeline/ and 02_quality_indicators/
+# (open them in JupyterLab, VS Code, ...).
+ipykernel==7.2.0

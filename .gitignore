@@ -1,0 +1,23 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets and local settings
+.env
+
+# Editor / OS / Office leftovers
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+
+# Intermediate data: rebuilt from PATSTAT (see SETUP.md, Part 2).
+# The raw PATSTAT exports themselves live outside the repository (PATSTAT_DIR).
+# Everything under an output/ folder is kept.
+**/data/
+*.csv
+!**/output/**/*.csv
+01_patstat_pipeline/**/*.xlsx
